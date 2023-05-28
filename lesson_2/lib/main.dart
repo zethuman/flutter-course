@@ -81,7 +81,7 @@ class _CounterWidgetState extends State<_CounterWidget> {
                 color: Colors.black,
               )),
           Text(
-            "${_value}",
+            "$_value",
             style: const TextStyle(fontSize: 25),
           ),
           TextButton(
